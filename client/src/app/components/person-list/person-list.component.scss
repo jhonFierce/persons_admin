@@ -1,0 +1,38 @@
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .filter-fields {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  mat-toolbar {
+    height: auto;
+    padding-top: 20px;
+  }
+  
+  mat-form-field {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  button {
+    align-self: flex-end;
+    margin-left: 20px;
+  }
+
+  .buttonAddPerson {
+    margin-bottom: 20px;
+}
+
+.buttonAction {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,28 @@
+/* person-dialog.component.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  mat-form-field {
+    width: 100%; /* Adjust width if needed */
+    max-width: 500px; /* Optional: Set a max-width for the form */
+  }
+  
+  button {
+    margin-top: 20px; /* Space between form fields and the button */
+  }
+
+  /* Add responsive design if needed */
+@media (max-width: 600px) {
+    .form-container {
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    mat-form-field {
+      width: 100%;
+    }
+  }

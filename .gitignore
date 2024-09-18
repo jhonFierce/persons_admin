@@ -1,0 +1,67 @@
+# Ignore node_modules across all subdirectories
+**/node_modules
+
+# Ignore build output
+dist/
+build/
+public/
+coverage/
+tmp/
+
+# Ignore environment files (if any)
+**/.env
+**/.env.local
+**/.env.production
+**/.env.development
+**/.env.test
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+libpeerconnection.log
+
+# Ignore temporary files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+.settings/
+.classpath
+.project
+.sass-cache/
+.history/
+.connect.lock
+testem.log
+
+# Ignore Angular cache in client
+client/.angular/cache
+
+# Ignore dist, tmp, and out-tsc in client
+client/dist
+client/tmp
+client/out-tsc
+client/bazel-out
+
+# Ignore IDE/editor folders in client
+client/.idea/
+client/.c9/
+client/.launch
+client/.settings/
+
+# Ignore Visual Studio Code files in client, but keep specific config files
+client/.vscode/*
+!client/.vscode/settings.json
+!client/.vscode/tasks.json
+!client/.vscode/launch.json
+!client/.vscode/extensions.json
+
+# Miscellaneous in client
+client/coverage
+client/typings
+
+# Ignore system files in client
+client/.DS_Store
+client/Thumbs.db
