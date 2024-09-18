@@ -30,6 +30,10 @@
 
    Este comando ejecutará el servidor y la aplicación cliente simultáneamente.
 
+3. **URLS**
+    - graphiql (interfaz gráfica de GraphQL), se ejecuta sobre http://localhost:4000/graphql
+    - Angular, la aplicación, se ejecuta sobre http://localhost:4200/
+
 ## Tecnologías Utilizadas
 
 - **Backend:** Express, Sequelize, GraphQL, SQLite
